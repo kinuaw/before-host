@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Products | Winner Herbal</title>
+<meta name="description" content="All Winner Herbal products: herbal hair oils, shampoos, conditioners and hair food, made in Ethiopia." />
+<meta name="theme-color" content="#f6f2ea" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300..700&family=Noto+Sans+Ethiopic:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4" stroke-linecap="round"><path d="M5 19c0-8 5-14 14-14 0 9-6 14-14 14Z"/><path d="M5 19c3-4 6-6 10-8"/></svg>
+      <span><b>WINNER</b><small>HERBAL · COSMETICS</small></span>
+    </a>
+    <nav>
+      <a class="l" href="products.html" data-am="ምርቶች" style="color:var(--accent)">Products</a>
+      <a class="l" href="index.html#about" data-am="ታሪካችን">Our Story</a>
+      <a class="l" href="index.html#why" data-am="ለምን ዊነር">Why Winner</a>
+      <a class="l" href="index.html#contact" data-am="ያግኙን">Contact</a>
+      <div class="nav-controls">
+        <div class="lang" role="group" aria-label="Language">
+          <button id="b-en" class="on" type="button">EN</button>
+          <button id="b-am" type="button">አማ</button>
+        </div>
+        <a class="btn nav-cta" href="index.html#contact" data-am="ያግኙን">Contact us</a>
+        <button class="menu-btn" id="menu-btn" type="button" aria-label="Toggle menu">☰</button>
+      </div>
+    </nav>
+  </div>
+  <div class="mobile-drawer" id="mobile-drawer">
+    <a href="index.html" data-am="መነሻ">Home</a>
+    <a href="products.html" data-am="ምርቶች">Products</a>
+    <a href="index.html#about" data-am="ታሪካችን">Our Story</a>
+    <a href="index.html#why" data-am="ለምን ዊነር">Why Winner</a>
+    <a href="index.html#contact" data-am="ያግኙን">Contact</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="products products-page">
+  <div class="wrap">
+    <p class="eyebrow rv" data-am="ምርቶቻችን">Our products</p>
+    <h2 class="rv"><span data-am="ሁሉም">All</span> <em data-am="ምርቶቻችን">products</em></h2>
+    <p class="lead rv" data-am="ምርቱን ሲጫኑ ጥቅሞቹን ያያሉ።">Tap a product to see its benefits.</p>
+    <div class="tabs rv" id="tabs">
+      <button class="tab on" data-f="all" data-am="ሁሉም">All</button>
+      <button class="tab" data-f="oil" data-am="የፀጉር ዘይቶች">Hair oils</button>
+      <button class="tab" data-f="shampoo" data-am="ሻምፑ">Shampoos</button>
+      <button class="tab" data-f="cond" data-am="ኮንዲሽነሮች">Conditioners</button>
+      <button class="tab" data-f="food" data-am="የፀጉር ምግብ">Hair food</button>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <b>WINNER</b><br />HERBAL · COSMETICS<br /><br />
+  <span data-am="© 2026 ዊነር ሄርባል። ሁሉም መብቶች የተጠበቁ ናቸው።">© 2026 Winner Herbal. All rights reserved.</span>
+</footer>
+
+<script src="benefits.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
